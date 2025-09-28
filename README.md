@@ -69,7 +69,7 @@ graph-prompt/
 
 ### Training Examples
 
-#### 1. Train on CIFAR-10 with ResNet
+#### 1. Train on CIFAR-10 with GoogLeNet
 ```bash
 python train.py -dataset cifar10 -net googlenet -num_elements 15 \
   -stage_mode early -weight_method linear -use_detach \
@@ -85,7 +85,7 @@ python train.py -dataset cifar100 -net mobilenet -num_elements 6 \
   -best_checkpoint checkpoints -gpu
 ```
 
-#### 3. Train on Tiny ImageNet with Vision Transformer (ViT)
+#### 3. Train on Tiny ImageNet with MobileViT
 ```bash
 python train.py -dataset tiny_imagenet -net mobilevit_xxs -num_elements 6 \
   -stage_mode middle+late -weight_method adaptive -detach_adaptive \
