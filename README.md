@@ -6,7 +6,10 @@
     Graph Your Own Prompt
   </h1>
 
-
+<a href="https://darcyddx.github.io/files/neurips25_graph_camera.pdf" target="_blank">
+  <img src="https://img.shields.io/badge/Paper-NeurIPS25-green" alt="Paper PDF">
+</a>
+<a href="https://darcyddx.github.io/gcr/"><img src="https://img.shields.io/badge/Project_Page-blue" alt="Project Page"></a>
 
 [Xi Ding](https://darcyddx.github.io/), [Lei Wang](https://leiwangr.github.io/), [Piotr Koniusz](https://www.koniusz.com/), [Yongsheng Gao](https://experts.griffith.edu.au/19112-yongsheng-gao)
 </div>
