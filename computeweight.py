@@ -18,3 +18,27 @@ def compute_adaptive(L_graph):
     
     return alpha_values
 
+
+def calculate_weight(index, num_elements, method, num_active_graphs=None):
+    if method == 'adaptive':
+        return 1.0
+
+    x = (1 + index) / num_elements
+
+    if method == 'linear':
+        return x
+    elif method == 'sqrt':
+        return math.sqrt(x)
+    elif method == 'squared':
+        return x ** 2
+    elif method == 'equal':
+        if num_active_graphs and num_active_graphs > 0:
+            return 1.0 / num_active_graphs
+        return 1.0
+    elif method == 'arccos':
+        return math.acos(1 - 2 * x) / math.pi
+    elif method == 'cosine':
+        return (1 + math.cos(math.pi * x)) / 2
+    else:
+        logger.warning(f"Invalid weight method '{method}'. Using linear weighting.")
+        return x

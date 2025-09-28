@@ -5,7 +5,7 @@ import torchvision.transforms as transforms
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
-# TODO: import the models you want to apply t-SNE
+# TODO: import the model you want to apply t-SNE
 from models.shufflenet import shufflenet
 from models.mobilenet import mobilenet
 

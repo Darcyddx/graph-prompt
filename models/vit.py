@@ -12,7 +12,7 @@ import torch
 import torch.nn as nn
 from typing import Optional
 import torch.nn.functional as F
-from mask import RelationshipLayer
+from gcr import RelationshipLayer
 
 class MultiHeadAttention(nn.Module):
     def __init__(self, dim: int, num_heads: int, qkv_bias: bool = True, attn_drop: float = 0., proj_drop: float = 0.):

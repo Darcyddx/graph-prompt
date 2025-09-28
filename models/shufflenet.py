@@ -14,7 +14,7 @@ import torch
 import torch.nn as nn
 
 import torch.nn.functional as F
-from mask import RelationshipLayer
+from gcr import RelationshipLayer
 
 class BasicConv2d(nn.Module):
 

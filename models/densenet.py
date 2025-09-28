@@ -11,7 +11,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mask import RelationshipLayer
+from gcr import RelationshipLayer
 
 
 #"""Bottleneck layers. Although each layer only produces k

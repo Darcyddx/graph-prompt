@@ -11,7 +11,7 @@ import torch
 import torch.nn as nn
 import torch.utils.checkpoint as checkpoint
 import torch.nn.functional as F
-from mask import RelationshipLayer
+from gcr import RelationshipLayer
 
 def drop_path_func(x, drop_prob: float = 0., training: bool = False):
     """Drop paths (Stochastic Depth) per sample (when applied in main path of residual blocks)."""

@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from mask import RelationshipLayer
+from gcr import RelationshipLayer
 from typing import Callable, Any, Optional, List
 from einops import rearrange
 
