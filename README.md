@@ -122,4 +122,4 @@ If you want to apply the GCR method to another model, you can directly import **
 3. Apply GCR transformations in the `forward` method at desired stages
 
 ## Acknowledgement
-We would like to express my gratitude to the authors of [pytorch-cifar100](https://github.com/weiaicunzai/pytorch-cifar100) for providing such a valuable resource. 
+We would like to express our gratitude to the authors of [pytorch-cifar100](https://github.com/weiaicunzai/pytorch-cifar100) for providing such a valuable resource. And mank thanks to these great models: MobileNet, ShuffleNet, SqueezeNet, GoogLeNet, ResNeXt, ResNet, DenseNet, Masked Autoencoders (MAE), Stochastic ResNet, SE-ResNet, ViT, Swin, MobileViT, CEiT, iFormer, ViG.
