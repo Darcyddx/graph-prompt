@@ -122,4 +122,4 @@ If you want to apply the GCR method to another model, you can directly import **
 3. Apply GCR transformations in the `forward` method at desired stages
 
 ## Acknowledgement
-Thanks to the great repository: [pytorch-cifar100](https://github.com/weiaicunzai/pytorch-cifar100).
+We would like to express my gratitude to the authors of [pytorch-cifar100](https://github.com/weiaicunzai/pytorch-cifar100) for providing such a valuable resource. 

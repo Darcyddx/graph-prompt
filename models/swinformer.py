@@ -1,6 +1,4 @@
 """
-Swin Transformer Implementation for Training from Scratch
-
 Based on the original Swin Transformer implementation, this version
 maintains the complete official architecture without pretrained weights
 and without fused window process.
