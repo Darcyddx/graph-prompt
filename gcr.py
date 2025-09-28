@@ -3,7 +3,6 @@ import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
 
-# RelationshipLayer
 class RelationshipLayer(nn.Module):
     def __init__(self, similarity='cos', gamma=None):
         super(RelationshipLayer, self).__init__()
@@ -13,9 +12,8 @@ class RelationshipLayer(nn.Module):
 
     def forward(self, x, state):
         if not state:
-            return None  # skip computation if inactive
+            return None  
 
-        # reshape if input is not 2-dimensional
         if len(x.shape) != 2:
             x = x.view(x.shape[0], -1) if x.is_contiguous() else x.reshape(x.shape[0], -1)
 
