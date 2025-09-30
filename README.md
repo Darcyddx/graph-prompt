@@ -131,3 +131,11 @@ If you want to apply the GCR method to another model, you can directly import **
 
 ## Acknowledgement
 We would like to express our gratitude to the authors of [pytorch-cifar100](https://github.com/weiaicunzai/pytorch-cifar100) for providing such a valuable resource, and to the contributors of the following great models: MobileNet, ShuffleNet, SqueezeNet, GoogLeNet, ResNeXt, ResNet, DenseNet, Masked Autoencoders, Stochastic ResNet, SE-ResNet, ViT, Swin, MobileViT, CEiT, iFormer, and ViG.
+
+Xi Ding, a visiting scholar at the ARC Research Hub for Driving Farming Productivity and Disease Prevention, Griffith University, conducted this work under the supervision of Lei Wang. 
+
+We sincerely thank the anonymous reviewers for their invaluable insights and constructive feedback, which have greatly contributed to improving our work.
+
+This work was supported by the Australian Research Council (ARC) under Industrial Transformation Research Hub Grant IH180100002. 
+
+This work was also supported by computational resources provided by the Australian Government through the National Computational Infrastructure (NCI) under both the ANU Merit Allocation Scheme and the CSIRO Allocation Scheme. 
