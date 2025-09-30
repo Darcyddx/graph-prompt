@@ -10,6 +10,11 @@
   <img src="https://img.shields.io/badge/Paper-NeurIPS25-green" alt="Paper PDF">
 </a>
 <a href="https://darcyddx.github.io/gcr/"><img src="https://img.shields.io/badge/Project_Page-blue" alt="Project Page"></a>
+<a href="https://arxiv.org/abs/2509.23373" target="_blank">
+  <img src="https://img.shields.io/badge/arXiv-2509.23373-b31b1b" alt="arXiv">
+</a>
+
+
 
 [Xi Ding](https://darcyddx.github.io/), [Lei Wang](https://leiwangr.github.io/), [Piotr Koniusz](https://www.koniusz.com/), [Yongsheng Gao](https://experts.griffith.edu.au/19112-yongsheng-gao)
 </div>
